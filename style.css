@@ -1,0 +1,121 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: black;
+}
+
+/* STYLE TEXT */
+.homeHead {
+  color: white;
+  text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 150px;
+  position: relative;
+  top: 150px;
+  text-shadow: 4px 4px 6px  #f31273;
+}
+
+#everyone {
+  color: #f31273;
+  text-shadow: 4px 4px 6px white;
+}
+
+.homeContent {
+  background-color: #f31273;
+  position: relative;
+  top: 290px;
+  padding: 70px 200px 70px 200px; 
+}
+/*padding goes top right bottom left*/
+
+.homeContentItem {
+  color: white;
+  font-size: 20px;
+  font-family: 'Fjalla One', sans-serif;
+  margin: 25px;
+  text-align: center;
+}
+
+.highlight {
+  color: black;
+}
+
+/* STYLE IMAGES */
+
+/* STYLE NAV BAR */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #c3c1c1;
+  opacity: .8;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  color: black;
+  opacity: 1;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: black;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.sidenav a:hover {
+  color: white;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.openbtn {
+  color: white;
+  position: fixed;
+}
+
+/* STYLE BUTTONS */
+
+/* ADD MORE! */
