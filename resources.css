@@ -16,30 +16,28 @@
 
 /* STYLE TEXT */
 
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+/* STYLE IMAGES */
 .flip-card {
   background-color: transparent;
-  width: 300px;
-  height: 200px;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  width: 250px;
+  height: 250px;
+  perspective: 1000px;
+  margin: 50px;
 }
 
-/* This container is needed to position the front and back side */
 .flip-card-inner {
   position: relative;
   width: 100%;
   height: 100%;
   text-align: center;
-  transition: transform 0.8s;
+  transition: transform 0.6s;
   transform-style: preserve-3d;
 }
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
 
-/* Position the front and back side */
 .flip-card-front, .flip-card-back {
   position: absolute;
   width: 100%;
@@ -48,43 +46,27 @@
   backface-visibility: hidden;
 }
 
-/* Style the front side (fallback if image is missing) */
-.flip-card-front {
-  background-color: #f31273;
-  color: white;
-  text-shadow: 2px 2px 4px black;
-  font-size: 50px;
-  font-family: 'Fjalla One', sans-serif;
-  border-radius: 50px;
-  box-shadow: 4px 4px 6px black;
-}
-
-/* Style the back side */
 .flip-card-back {
   background-color: #f31273;
   color: white;
-  text-shadow: 2px 2px 4px black;
-  transform: rotateY(180deg);
-  font-size: 18px;
-  font-family: 'Fjalla One', sans-serif;
-  border-radius: 50px;
   box-shadow: 4px 4px 6px black;
+  transform: rotateY(180deg);
 }
 
 .flip-card-two {
   background-color: transparent;
-  width: 300px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   perspective: 1000px;
+  margin: 50px;
 }
 
 .flip-card-inner-two {
   position: relative;
   width: 100%;
   height: 100%;
-
-  vertical-align: middle;
-  transition: transform 0.8s;
+  text-align: center;
+  transition: transform 0.6s;
   transform-style: preserve-3d;
 }
 
@@ -100,32 +82,19 @@
   backface-visibility: hidden;
 }
 
-.flip-card-front-two {
-  background-color: #f31273;
-  color: white;
-  text-shadow: 2px 2px 4px black;
-  font-size: 50px;
-  font-family: 'Fjalla One', sans-serif;
-  border-radius: 50px;
-  box-shadow: 4px 4px 6px black;
-}
-
 .flip-card-back-two {
   background-color: #f31273;
   color: white;
-  text-shadow: 2px 2px 4px black;
-  transform: rotateY(180deg);
-  font-size: 18px;
-  font-family: 'Fjalla One', sans-serif;
-  border-radius: 50px;
   box-shadow: 4px 4px 6px black;
+  transform: rotateY(180deg);
 }
 
 .flip-card-three {
   background-color: transparent;
-  width: 300px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   perspective: 1000px;
+  margin: 50px;
 }
 
 .flip-card-inner-three {
@@ -133,7 +102,7 @@
   width: 100%;
   height: 100%;
   text-align: center;
-  transition: transform 0.8s;
+  transition: transform 0.6s;
   transform-style: preserve-3d;
 }
 
@@ -149,32 +118,19 @@
   backface-visibility: hidden;
 }
 
-.flip-card-front-three {
-  background-color: #f31273;
-  color: white;
-  text-shadow: 2px 2px 4px black;
-  font-size: 50px;
-  font-family: 'Fjalla One', sans-serif;
-  border-radius: 50px;
-  box-shadow: 4px 4px 6px black;
-}
-
 .flip-card-back-three {
   background-color: #f31273;
   color: white;
-  text-shadow: 2px 2px 4px black;
-  transform: rotateY(180deg);
-  font-size: 18px;
-  font-family: 'Fjalla One', sans-serif;
-  border-radius: 50px;
   box-shadow: 4px 4px 6px black;
+  transform: rotateY(180deg);
 }
 
 .flip-card-four {
   background-color: transparent;
-  width: 300px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   perspective: 1000px;
+  margin: 50px;
 }
 
 .flip-card-inner-four {
@@ -182,7 +138,7 @@
   width: 100%;
   height: 100%;
   text-align: center;
-  transition: transform 0.8s;
+  transition: transform 0.6s;
   transform-style: preserve-3d;
 }
 
@@ -198,32 +154,19 @@
   backface-visibility: hidden;
 }
 
-.flip-card-front-four {
-  background-color: #f31273;
-  color: white;
-  text-shadow: 2px 2px 4px black;
-  font-size: 50px;
-  font-family: 'Fjalla One', sans-serif;
-  border-radius: 50px;
-  box-shadow: 4px 4px 6px black;
-}
-
 .flip-card-back-four {
   background-color: #f31273;
   color: white;
-  text-shadow: 2px 2px 4px black;
-  transform: rotateY(180deg);
-  font-size: 18px;
-  font-family: 'Fjalla One', sans-serif;
-  border-radius: 50px;
   box-shadow: 4px 4px 6px black;
+  transform: rotateY(180deg);
 }
 
 .flip-card-five {
   background-color: transparent;
-  width: 300px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   perspective: 1000px;
+  margin: 50px;
 }
 
 .flip-card-inner-five {
@@ -231,7 +174,7 @@
   width: 100%;
   height: 100%;
   text-align: center;
-  transition: transform 0.8s;
+  transition: transform 0.6s;
   transform-style: preserve-3d;
 }
 
@@ -247,32 +190,19 @@
   backface-visibility: hidden;
 }
 
-.flip-card-front-five {
-  background-color: #f31273;
-  color: white;
-  text-shadow: 2px 2px 4px black;
-  font-size: 50px;
-  font-family: 'Fjalla One', sans-serif;
-  border-radius: 50px;
-  box-shadow: 4px 4px 6px black;
-}
-
 .flip-card-back-five {
   background-color: #f31273;
   color: white;
-  text-shadow: 2px 2px 4px black;
-  font-size: 18px;
-  font-family: 'Fjalla One', sans-serif;
-  border-radius: 50px;
   box-shadow: 4px 4px 6px black;
   transform: rotateY(180deg);
 }
 
 .flip-card-six {
   background-color: transparent;
-  width: 300px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   perspective: 1000px;
+  margin: 50px;
 }
 
 .flip-card-inner-six {
@@ -280,7 +210,7 @@
   width: 100%;
   height: 100%;
   text-align: center;
-  transition: transform 0.8s;
+  transition: transform 0.6s;
   transform-style: preserve-3d;
 }
 
@@ -292,101 +222,22 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-}
-
-.flip-card-front-six {
-  background-color: #f31273;
-  color: white;
-  text-shadow: 2px 2px 4px black;
-  font-size: 50px;
-  font-family: 'Fjalla One', sans-serif;
-  border-radius: 50px;
-  box-shadow: 4px 4px 6px black;
 }
 
 .flip-card-back-six {
   background-color: #f31273;
   color: white;
-  text-shadow: 2px 2px 4px black;
-  font-size: 18px;
-  font-family: 'Fjalla One', sans-serif;
-  border-radius: 50px;
   box-shadow: 4px 4px 6px black;
   transform: rotateY(180deg);
 }
 
-.statsText {
-  position: relative;
-  top: 50px;
-  margin-left: 10px;
-  margin-right: 10px;
+.hotlineImage {
+  width: 250px;
+  height: 250px;
+  box-shadow: 4px 4px 6px #f31273;
 }
-
-.statsNumber {
-  position: relative;
-  top: 70px;
-}
-
-#youth {
-  position: relative;
-  top: 67px;
-}
-
-#women {
-  position: relative;
-  top: 27px;
-  padding: 10px;
-}
-
-.warning {
-  background-color: black;
-  margin-top: 50px;
-}
-
-.warningItem {
-  color: white;
-  text-align: center;
-  font-family: 'Fjalla One', sans-serif;
-  padding: 40px 200px 40px 200px;
-  text-shadow: 2px 2px 4px #f31273;
-}
-
-.prevention {
-  background-color: #f31273;
-  text-align: center;
-  font-family: 'Fjalla One', sans-serif;
-  padding: 70px 200px 70px 200px;
-  position: relative;
-  top: 100px;
-}
-
-.preItem {
-  color: white;
-  font-size: 20px;
-  margin: 12px;
-}
-
-.highlight {
-  color: black;
-}
-
-.sectionTitle {
-  color: white;
-  margin: 15px;
-  margin-top: 35px;
-}
-
-#title {
-  color: white;
-}
-
-#header {
-  margin-top: 35px;
-}
-
-/* STYLE IMAGES */
 
 /* STYLE NAV BAR */
 .overlay {  
@@ -404,7 +255,7 @@
 
 .overlay-content {
   position: relative;
-  top: 25%;
+  top: 15%;
   width: 100%;
   text-align: center;
   margin-top: 30px;
@@ -447,61 +298,56 @@
 
 /* STYLE BUTTONS */
 
-
 /* ADD MORE! */
-.stats {
+.hotline {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.statsItem {
-  margin: 50px;
+a {
+  font-size: 20px;
+  font-family: 'Fjalla One', sans-serif;
+  color: white;
   text-align: center;
+  padding: 10px;
+  position: relative;
+  top: 100px;
 }
+
+  #samhsa {
+    position: relative;
+    top: 85px;
+  }
+
+  .repositon {
+    position: relative;
+    top: 130px;
+  }
 
 @media screen and (max-width: 600px) {
-  .warning {
-    margin: 0px;
-  }
-  
-  .warningItem {
+  #head {
+    font-size: 75px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     padding-left: 0px;
     padding-right: 0px;
-    width: 100%;
-    margin: 0px;
-  }
-
-  .prevention {
-    padding-left: 0px;
-    padding-right: 0px;
-    margin: 0px;
-    width: 100%;
-  }
-  
-  .preItem {
-    padding-left: 0px;
-    padding-right: 0px;
-    width: 100%;
   }
 }
 
-@media screen and (max-width: 950px) {
-  .warning {
-    margin: 0px;
-  }
-  
-  .warningItem {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  
-  .prevention {
+@media screen and (max-width: 300px) {
+  #head {
+    font-size: 60px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     padding-left: 0px;
     padding-right: 0px;
     margin: 0px;
-    width: 100%;
   }
 
- 
-} 
+  .hotlineImage {
+    width: 175px;
+    height: 175px;
+    align: center;
+  }
+}

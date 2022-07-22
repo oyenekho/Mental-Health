@@ -9,40 +9,6 @@ body {
 }
 
 /* STYLE TEXT */
-.homeHead {
-  color: white;
-  text-align: center;
-  font-family: 'Fjalla One', sans-serif;
-  font-size: 150px;
-  position: relative;
-  top: 150px;
-  text-shadow: 4px 4px 6px  #f31273;
-}
-
-#everyone {
-  color: #f31273;
-  text-shadow: 4px 4px 6px white;
-}
-
-.homeContent {
-  background-color: #f31273;
-  position: relative;
-  top: 290px;
-  padding: 70px 200px 70px 200px; 
-}
-/*padding goes top right bottom left*/
-
-.homeContentItem {
-  color: white;
-  font-size: 20px;
-  font-family: 'Fjalla One', sans-serif;
-  margin: 25px;
-  text-align: center;
-}
-
-.highlight {
-  color: black;
-}
 
 /* STYLE IMAGES */
 
@@ -101,29 +67,43 @@ body {
 .openbtn {
   color: white;
   position: fixed;
+  top: 0px;
 }
 
 /* STYLE BUTTONS */
 
 /* ADD MORE! */
-@media screen and (max-width: 600px) {
-  .homeHead {
-    font-size: 75px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
-  .homeContent {
-    padding-left: 0px;
-    padding-right: 0px;
-    width: 100%;
-  }
+.links {
+  background-color: #f31273;
+  margin: 100px;
+  box-shadow: 4px 4px 6px white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  top: -30px;
 }
 
-@media screen and (max-width: 950px) {
-  .homeContent {
-    padding-left: 0px;
-    padding-right: 0px;
+.linkItem {
+  color: white;
+  font-size: 20px;
+  font-family: 'Fjalla One', sans-serif;
+  padding: 15px;
+  margin: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .links {
+    padding: 0px;
+    margin: 0px;
     width: 100%;
+    position: absolute;
+    top: 15%;
   }
-} 
+
+  .linkItem {
+    padding: 10px;
+    margin: 5px;
+    font-size: 13px;
+  }
+}
